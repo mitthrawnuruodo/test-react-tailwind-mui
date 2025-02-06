@@ -13,17 +13,14 @@
 }
 
 .customButton {
-  background-color: #ff5722; /* Custom color overriding MUI */
+  background-color: #ff5722; 
   color: white;
   padding: 8px 16px;
+  margin-left: 12px;
   border-radius: 8px;
   transition: background-color 0.3s;
 }
 
 .customButton:hover {
   background-color: #e64a19;
-}
-
-button {
-  margin: 10px;
 }

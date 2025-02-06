@@ -9,12 +9,10 @@ const Card = () => {
         This card combines Tailwind utilities, MUI components, and custom styles with CSS Modules.
       </p>
 
-      {/* MUI Button with Tailwind */}
-      <Button variant="contained" color="secondary" className="m-4">
+      <Button variant="contained" color="primary" className="text-red-400">
         MUI Button
       </Button>
 
-      {/* Custom CSS Module Button */}
       <button className={styles.customButton}>Custom Styled Button</button>
     </div>
   );
