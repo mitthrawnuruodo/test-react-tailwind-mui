@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.card {
+  @apply bg-white shadow-md rounded-xl p-6 border border-gray-200;
+}
+
+.title {
+  @apply text-2xl font-serif font-bold text-gray-800 mb-4;
+}
+
+.description {
+  @apply font-mono text-gray-600 text-sm mb-4;
+}
+
+.customButton {
+  background-color: #ff5722; /* Custom color overriding MUI */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.customButton:hover {
+  background-color: #e64a19;
+}
+
+button {
+  margin: 10px;
+}
