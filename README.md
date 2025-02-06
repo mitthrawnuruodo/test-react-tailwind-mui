@@ -1,8 +1,37 @@
-# React + Vite
+# React + Tailwind CSS + MUI with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project using Vite as the build tool, Tailwind CSS for styling, MUI (Material-UI) for UI components.
 
-Currently, two official plugins are available:
+## Running the Project
+Start the development server:
+```sh
+npm run dev
+```
+Run ESLint:
+```sh
+npm run lint
+```
+Build for production:
+```sh
+npm run build
+```
+Preview the production build:
+```sh
+npm run preview
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Folder Structure
+📂 src
+ ┣ 📂 components
+ ┃ ┗ 📄 Card.jsx
+ ┃ ┗ 📄 Card.module.css
+ ┣ 📄 App.jsx
+ ┣ 📄 main.jsx
+ ┗ 📄 index.css
+
+## Tech Stack
+React (UI framework)
+Vite (Fast build tool)
+Tailwind CSS (Utility-first styling)
+MUI (Material-UI) (Component library)
+ESLint (Code linting)
