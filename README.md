@@ -21,6 +21,7 @@ npm run preview
 ```
 
 ## Folder Structure
+```md
 📂 src
  ┣ 📂 components
  ┃ ┗ 📄 Card.jsx
@@ -28,10 +29,11 @@ npm run preview
  ┣ 📄 App.jsx
  ┣ 📄 main.jsx
  ┗ 📄 index.css
+```
 
 ## Tech Stack
-React (UI framework)
-Vite (Fast build tool)
-Tailwind CSS (Utility-first styling)
-MUI (Material-UI) (Component library)
-ESLint (Code linting)
+- React (UI framework)
+- Vite (Fast build tool)
+- Tailwind CSS (Utility-first styling)
+- MUI (Material-UI) (Component library)
+- ESLint (Code linting)
