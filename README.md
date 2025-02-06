@@ -2,6 +2,14 @@
 
 This is a React project using Vite as the build tool, Tailwind CSS for styling, MUI (Material-UI) for UI components.
 
+## Install project
+
+After forking/cloning/downloading the repo, run: 
+
+```sh
+npm i
+```
+
 ## Running the Project
 Start the development server:
 ```sh
@@ -20,7 +28,7 @@ Preview the production build:
 npm run preview
 ```
 
-## Folder Structure
+## Folder Structure for main project files
 ```md
 📂 src
  ┣ 📂 components
